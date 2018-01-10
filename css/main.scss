@@ -4,3 +4,13 @@
 
 @import 'minima';
 @import 'custom';
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+code {
+    font-family: 'Fira Mono', monospace;
+}
