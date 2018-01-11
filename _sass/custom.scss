@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+$slate: #2e3440;
+$white: #d8dee9;
+$blue: #88c0d0;
+$green: #a3be8c;
+$orange: #ebcb8b;
+$purple: #b48ead;
+
 // Define defaults for each variable.
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans');
 
@@ -13,9 +20,9 @@ $code-font-family: 'Fira Mono', monospace !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #d8dee9 !default;
-$background-color: #2e3440 !default;
-$brand-color:      #88c0d0 !default;
+$text-color:       $white !default;
+$background-color: $slate !default;
+$brand-color:      $blue !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -278,7 +285,7 @@ pre {
 
   &,
   &:visited {
-    color: #a3be8c;
+    color: $green;
   }
 }
 
@@ -384,7 +391,7 @@ pre {
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $purple;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -474,7 +481,7 @@ pre {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-  color: #ebcb8b;
+  color: $orange;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -507,10 +514,6 @@ pre {
       @include relative-font-size(1.125);
     }
   }
-}
-
-.site-title {
-    color: #ebcb8b;
 }
 
 .icon {
