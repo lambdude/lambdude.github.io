@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Better is Better"
-date:   2018-01-14 14:06:10 -0500
+date:   2018-01-14 20:06:10 -0500
 comments: true
+published: false
 ---
 
 In 1991, Richard Gabriel published [Lisp: Good News, Bad News, How to Win Big](https://www.dreamsongs.com/WIB.html).
